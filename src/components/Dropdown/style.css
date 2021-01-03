@@ -1,0 +1,28 @@
+.app__section__dropdown-wrapper{
+
+}
+
+.app__section__dropdown-selected{
+    padding: 8px 10px;
+    background-color: #f1f9ff;
+    border-radius: 8px;
+    border: 1px solid #69c0fc;
+    color: #69c0fc;
+    font-weight: 500;
+}
+
+.app__section__dropdown-options{
+    border: 1px solid #69c0fc;
+    color: #69c0fc;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.app__section__dropdown-item{
+    padding: 8px 10px;
+    border-bottom: 1px solid #69c0fc;
+}
+
+.app__section__dropdown-item:last-child{
+    border: none;
+}

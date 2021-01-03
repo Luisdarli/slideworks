@@ -1,0 +1,22 @@
+.selected{
+    background-color: #c8e5f8 !important;
+}
+
+.app__section__tags-wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+
+.app__section__tags-options{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    background-color: #f1f9ff;
+    padding: 5px;
+    border: 2px solid #69c0fc;
+    color: #69c0fc;
+    cursor: pointer;
+}
