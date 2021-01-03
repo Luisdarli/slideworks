@@ -1,0 +1,124 @@
+.error{
+    border: 1px solid red !important;
+}
+
+.sucess{
+    border: 1px solid green !important;
+}
+
+.app{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+
+.app__section{
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.app__section-inputGroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.app__section__inputGroup-error{
+    color: red;
+}
+.app__section__inputGroup-sucess{
+    color: green;
+}
+.app__section-inputGroup span{
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.app__section form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.app__section label{
+    color: #3ba4fc;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.app__section label:nth-last-of-type(1){
+    margin-top: 30px;
+}
+
+.app__section input{
+    background-color: #f1f9ff;
+    border: 1px solid #69c0fc;
+    padding: 8px 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.app__section input::placeholder{
+    color: #69c0fc;
+}
+
+.app__section input, textarea:focus{
+    outline: none;
+}
+
+.app__section textarea{
+    margin-top: 45px;
+    border: 1px solid #69c0fc;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+
+.app__section-checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.app__section-dropdown{
+    flex: 1;
+}
+
+.app__section-tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app__section-button{
+    background-color: #2699fb;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 550px){
+    .app{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .app__section{
+        max-width: 90%;
+    }
+
+    .app__section-checkbox{
+        flex-wrap: wrap;
+    }
+}
