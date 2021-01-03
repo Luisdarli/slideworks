@@ -26,3 +26,13 @@
 .app__section__dropdown-item:last-child{
     border: none;
 }
+
+@media only screen and (max-width: 550px){
+    .app__section-checkbox{
+        max-width: 80%;
+    }
+
+    .app__section__dropdown-selected{
+        max-width: 80%;
+    }
+}
